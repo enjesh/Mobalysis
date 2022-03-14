@@ -1,3 +1,4 @@
+#TASK 1 SDG
 #!/bin/bash
 sudo apt-get update
 
@@ -9,6 +10,9 @@ curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
 sudo apt-get install nginx -y
 
 
+
+# TASK 2 - HASSAN
+
 #install node.js
 sudo apt-get install -y nodejs
 
@@ -17,12 +21,14 @@ cd /var/www/html/
 #clone repo
 sudo git clone https://github.com/sdg000/Mobalysis.git
 
+
+
+# TASK 3 VERONICA
+
 #cd into frontend to install and run npm
 cd Mobalysis/frontend
-
 sudo npm install
 sudo npm run build
-
 
 #copy all files in  frontend/build to /var/www/html
 #remove original html file from nginx
