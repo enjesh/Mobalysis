@@ -1,0 +1,7 @@
+[testservers]
+
+ubuntu@xx.xx.xx.xx ansible_ssh_private_key_file="fullpath local location of pem key"
+ubuntu@xx.xx.xx.xx ansible_ssh_private_key_file="fullpath local location of pem key"
+
+
+#ansible host inventory listing 2 remote ubuntu nodes
